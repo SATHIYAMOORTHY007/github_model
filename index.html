@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0%;
+    }
+    .github_head {
+      display: flex;
+      background-color: lightslategrey;
+    }
+    .head-text {
+      text-align: center;
+      margin: auto;
+    }
+    .fa-github {
+      color: white;
+     margin-left:1em;
+    }
+    .container {
+      background-color:lightgoldenrodyellow;
+      width: 100vw;
+     display: flex;
+    }
+    .side-bar
+    {
+        width: 30%;
+        height:35em;
+        background-color: teal;
+        margin:3% 0 0 5%;
+        border-radius:5%;
+    }
+    .boxes
+    {
+        width:70%;
+        position: relative;
+        
+
+    }
+    .search
+    {
+        width:60%;
+        background-color: teal;
+        margin: 5% auto;
+        border-radius:2%;
+    }
+    .small-box
+    {
+        display: flex;
+        flex-direction:row;
+    }
+    .small{
+        width: 100%;
+        min-height:10em;
+        background-color:teal;
+        margin:2%;
+        border-radius:10%;
+    }
+    .large
+    {
+        background-color:teal;
+        width: 97%;
+        height:10em;
+        margin:2%;
+        position: absolute;
+        border-radius:2%;
+    }
+    h1{
+        color:white;
+    }
+  </style>
+  <body>
+    <div class="github_head">
+      <a href="#" class="fa fa-github fa-4x"></a>
+      <div class="head-text">
+        <h1>GITHUB</h1>
+      </div>
+    </div>
+    <!-------------------------boxes-->
+    <div class="container">
+        <div class="side-bar"></div>
+            <div class="boxes">
+                 <div class="search"><h1>search</h1></div>
+                 <div class="small-box">
+                    <div class="small"></div>
+                    <div class="small"></div>
+                    <div class="small"></div>
+                 </div>
+                 <div class="large"></div>
+            </div>
+    </div>
+  </body>
+</html>
